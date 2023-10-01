@@ -1,0 +1,67 @@
+/* Barbie-themed style */
+
+/* Background color */
+body {
+    background-color:black; /* Barbie Pink */
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    color: #FF1493; /* Deep Pink */
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Helvetica Neue", sans-serif;
+}
+ 
+a {
+    color: #FF1493; /* Deep Pink */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: gray; /* Barbie Pink */
+}
+
+/* Lists */
+ul, ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+li {
+    margin: 10px 0;
+    list-style-type: disc;
+}
+
+
+/* Buttons */
+button {
+    background-color: #FF69B4; /* Barbie Pink */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #eb95c3; /* Deep Pink */
+}
+
+/* Footer */
+footer {
+    background-color: #FF69B4; /* Barbie Pink */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Additional styling specific to recipe pages can be added as needed */
